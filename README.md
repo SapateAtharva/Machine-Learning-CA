@@ -79,6 +79,22 @@ The performance of both models was evaluated on the 628-image validation set.
 
 #### Model 2 (SVM) Results
 * Accuracy: 85.35%.
+* **Classification Report (Model 2):**
+    ```
+                  precision    recall  f1-score   support
+
+         Ferrari       0.85      0.78      0.82       194
+         Mclaren       0.91      0.83      0.87       127
+        Mercedes       0.79      0.92      0.85       182
+         Redbull       0.92      0.89      0.90       125
+
+        accuracy                           0.85       628
+       macro avg       0.87      0.86      0.86       628
+    weighted avg       0.86      0.85      0.85       628
+    ```
+* **Analysis:** The SVM classifier *improved* performance across all classes. The F1-score for **Ferrari** jumped significantly from 0.75 to 0.82. The model was strongest at identifying **Red Bull** (0.90 F1-score) and showed a much better balance of precision and recall overall.
+* **Confusion Matrix (Model 2):**
+    ![SVM Confusion Matrix](images/svm_confusion_matrix.png)
 * Confusion Matrix: The SVM model showed significant improvement. Misclassifications were reduced across all classes, especially for Ferrari.
 * **F1-Scores (per class):**
     * Ferrari: 0.82
