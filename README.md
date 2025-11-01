@@ -125,7 +125,7 @@ The performance of both models was evaluated on the 628-image validation set.
 
 ### 6. Conclusion
 * Two models were successfully used and compared. The hybrid (CNN+SVM) model was the one which outperform the end-to-end CNN model by over 5% in accuracy.
-*  ![Final Comparison](final_comparison.png)
+*  ![Final Comparison](final_comparison_chart.png)
 * This tells that while MobileNetV2 is an excellent feature extractor, the SVM with an RBF kernel is a more powerful and effective classifier for this specific dataset than the CNN's default Dense layer.
 * The SVM model is strongest at identifying Red Bull (0.90 F1-Score) and weakest at identifying Ferrari (0.82 F1-Score), though it was still a significant improvement over the CNN's 0.75 F1-Score for Ferrari.
 
