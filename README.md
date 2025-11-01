@@ -4,8 +4,9 @@
 
 * This project addresses a computer vision task. The goal of this project, train a model that can accurately identify an F1 car's team from an image.
 * Domain Computer Vision (Image-based Classification).
-* The goal is to classify F1 car images into four teams: Ferrari, McLaren, Mercedes, and Red Bull using two different machine learning models (one DL, one classic ML).
-* Overview of the Results: The highest validation accuracy (85.35%) was attained by a hybrid model that used an SVM as a classifier and a CNN as a feature extractor.
+
+* We are classifying the images of a F1 car into four constructor/manufacturer teams: Scuderia Ferrari HP, McLaren Racing Limited, Mercedes-AMG PETRONAS Formula One Team, and Oracle Red Bull Racing using two different machine learning models and compare those results.
+* Overview of the upcoming result, the highest validation accuracy (85.35%) was attained by a hybrid model that used an SVM as a classifier and a CNN as a feature extractor.
 
 ---
 
