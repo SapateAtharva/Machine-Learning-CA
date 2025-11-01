@@ -94,7 +94,7 @@ The performance of both models was evaluated on the 628-image validation set.
     ```
 * **Analysis:** The SVM classifier *improved* performance across all classes. The F1-score for **Ferrari** jumped significantly from 0.75 to 0.82. The model was strongest at identifying **Red Bull** (0.90 F1-score) and showed a much better balance of precision and recall overall.
 * **Confusion Matrix (Model 2):**
-    ![SVM Confusion Matrix](images/svm_confusion_matrix.png)
+    ![SVM Confusion Matrix](svm_confusion_matrix.png)
 * Confusion Matrix: The SVM model showed significant improvement. Misclassifications were reduced across all classes, especially for Ferrari.
 * **F1-Scores (per class):**
     * Ferrari: 0.82
